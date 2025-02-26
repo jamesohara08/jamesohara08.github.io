@@ -8,14 +8,27 @@ function getDivFromHTML(htmlString, divId) {
 async function fetchPost(url){
 	const response = await fetch(url);
 	const data = await response.text();
-	var post_content = getDivFromHTML(data, 'post');
+	const post_content = getDivFromHTML(data, 'post');
 	const headline = post_content.getElementsByTagName("h1")[0];
-	const headline_text = headline.innerHTML;
-	headline.innerHTML = `<a href="${url}" class="w3-text-indigo">${headline_text}</a>`
+	const date = post_content.getElementsByTagName("b")[0];
+	const content = Array.prototype.slice.call(post_content.getElementsByTagName("p"),0,3);
+	const read_more = document.createElement('a');
+	read_more.setAttribute('href', url);
+	read_more.textContent = "Read more...";
+	read_more.className = "w3-text-indigo";
 	const hr = document.createElement('hr');
-	hr.style = "border-top: 3px solid #bbb;"
-	post_content.appendChild(hr);
-	return post_content;
+	hr.style = "border-top: 3px solid #bbb;";
+	const preview = document.createElement('div');
+	preview.setAttribute('id','post');
+	preview.className = "w3-content w3-container";
+	preview.appendChild(headline);
+	preview.appendChild(date);
+	for(const p of content){
+		preview.appendChild(p);
+	}
+	preview.appendChild(read_more);
+	preview.appendChild(hr);
+	return preview;
 }
 
 async function buildHomepage(){
@@ -53,6 +66,7 @@ function paginate(page_num){
 	for(i=start_index;i<start_index+10;i++){
 		content.appendChild(posts[i]);
 	}
+	content.scrollIntoView();
 }
 
 const posts = [];
