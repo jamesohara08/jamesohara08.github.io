@@ -40,8 +40,7 @@ async function buildHomepage(){
 		if(filename != 'html_name'){
 			console.log(filename);
 			const url = "https://jamesohara08.github.io/home/post/" + filename;
-			const post = await fetchPost(url);
-			posts.push(post);
+			posts.push(url);
 		}
 	}
 	const num_of_pages = Math.floor(posts.length / 10) + 1;
@@ -57,14 +56,15 @@ async function buildHomepage(){
 	paginate(1);
 }
 
-function paginate(page_num){
+async function paginate(page_num){
 	const content = document.getElementById('content');
 	while(content.firstChild){
         content.removeChild(content.firstChild);
     }
 	const start_index = (page_num - 1) * 10;
 	for(i=start_index;i<start_index+10;i++){
-		content.appendChild(posts[i]);
+		const post = await fetchPost(posts[i]);
+		content.appendChild(post);
 	}
 	content.scrollIntoView();
 }
