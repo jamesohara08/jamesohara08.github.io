@@ -1,0 +1,221 @@
+<!doctype html> 
+             <html lang="en-US"> 
+              <head>
+                <meta charset="UTF-8" />
+                <title>Nats Starting Pitchers and BABIP</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+              </head>
+<body><div class="w3-row">                    <img src="next_year_dc_banner_new.jpg" class="w3-image" style="width:100%"/>                     <div class="w3-bar w3-border w3-light-grey">                        <a href="/home" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Home</a>                         <a href="/home/about" class="w3-bar-item w3-mobile w3-button w3-hover-blue">About</a>                         <a href="/NatsGMProject" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Be Your Own Nats GM</a>                        <a href="/SpringTrainingStoryCreator" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Spring Training Story Creator</a>                        <a href="/GarbageKyles" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Garbage Kyles Quiz</a>                    </div>                </div>
+<div class="w3-content w3-container" id="post">
+<h1>Nats Starting Pitchers and BABIP</h1><b>November 21, 2014</b><div class="entry-content">
+<p>In 2001 Voros McCracken released one of the seminal advanced baseball statistic research pieces when he detailed defensive independent pitching statistics, commonly referred to as DIPS Theory. The idea was that offensive results could be separated into two categories: true outcomes (strikeouts, walks and home runs) that a pitcher has a great deal of control over and untrue outcomes (balls in play) that a pitcher had no control over. Over the years this idea has pervaded advanced baseball analysis and can be seen in some of the most common pitching statistics such as FIP and it has been an oft repeated fact that pitchers have absolutely no control over a ball once it is put into play.</p>
+<p>This notion is false and over the past 13 years many minds, including McCracken, have wrestled with how much credit or blame should be assigned to a pitcher for ball in play results. In 2010, Matt Swartz at Baseball Prospectus found that <a href="http://www.baseballprospectus.com/article.php?articleid=10281">12 percent of the average pitcher’s seasonal BABIP will be determined by the pitcher</a>. Note that I said seasonal BABIP, Russell Carleton found that it took about <a href="http://statspeakmvn.wordpress.com/2009/01/25/so_how_long_does_it_take_for_babip_to_become_reliable/">3,800 balls in play to determine a pitcher’s true hit-prevention talent.</a> In other words, the larger sample size we have the more we know about the pitcher.<span id="more-5751"></span></p>
+<p>Now this isn’t to say that statistics like FIP are incorrect. Far from it. It’s like trying to guess the number of jelly beans in a giant glass jar. A good estimator would take facts like the dimensions of the jar and the average size of a jelly bean and conclude that the number of jelly beans is around say 1,250. Based on the spacing of the jelly beans in the jar one such jar could actually contain 1,262 jelly beans while the same jar could contain only 1,238. FIP gives us the 1,250 estimate, what we want to find is those extra 12 jelly beans.</p>
+<p>Now of course this is a Nationals blog, so we only really care about Nationals pitchers and in particular, Nationals starting pitchers. Why? This table will answer that.</p>
+<div class="w3-responsive"><table class="w3-table-all">
+<tbody>
+<tr>
+<td style="text-align:left;" width="136">Player</td>
+<td width="64">ERA</td>
+<td width="64">FIP</td>
+<td width="64">BABIP</td>
+</tr>
+<tr>
+<td>Stephen Strasburg</td>
+<td>3.14</td>
+<td>2.94</td>
+<td>0.315</td>
+</tr>
+<tr>
+<td>Jordan Zimmermann</td>
+<td>2.66</td>
+<td>2.68</td>
+<td>0.302</td>
+</tr>
+<tr>
+<td>Gio Gonzalez</td>
+<td>3.57</td>
+<td>3.03</td>
+<td>0.294</td>
+</tr>
+<tr>
+<td>Doug Fister</td>
+<td>2.41</td>
+<td>3.93</td>
+<td>0.262</td>
+</tr>
+<tr>
+<td>Tanner Roark</td>
+<td>2.85</td>
+<td>3.47</td>
+<td>0.270</td>
+</tr>
+</tbody>
+</div></table>
+<p>As we can see Strasburg’s ERA seemed to suffer compared to his FIP likely due in part to his BABIP, while Fister and Roark’s ERA’s were significantly lowered again likely due in part to their BABIPs. So now that we know the correct answer isn’t to just chalk that up to bad luck, we need to try to figure out why Strasburg posted the high BABIP he did and Fister and Roark were able to do the opposite. What we find can then help in our projection of their futures with the Nats.</p>
+<p>The first place to look is naturally those outcomes that have been thought of as true, along with two other rate stats which correlate well year-to-year groundball and flyball percentage. Intuitively, this should make sense, as pitchers who do better in the true outcomes is likely a very good pitcher, which should show up in his hit prevention abilities as well.</p>
+<p>In a <a href="www.baseballprospectus.com/article.php?articleid=20140">different article </a>Carleton found that by using just these rate stats and last season BABIP we can predict next season BABIP with a correlation coefficient of .305, about the same correlation as home run rate. In the same article as before, Swartz finds that 86% of an average pitcher’s seasonal BABIP can be explained by strikeout rate, walk rate and an adjusted groundball rate. These are also the factors that make up the ERA predictor <a href="http://www.fangraphs.com/library/pitching/siera/">SIERA</a>. So let’s take a look at those numbers.</p>
+<div class="w3-responsive"><table class="w3-table-all">
+<tbody>
+<tr>
+<td width="136">Player</td>
+<td width="64">SIERA</td>
+</tr>
+<tr>
+<td>Stephen Strasburg</td>
+<td>2.64</td>
+</tr>
+<tr>
+<td>Doug Fister</td>
+<td>3.93</td>
+</tr>
+<tr>
+<td>Tanner Roark</td>
+<td>3.93</td>
+</tr>
+</tbody>
+</div></table>
+<p>Interestingly, when we try to account for hit prevention skills we find the opposite of what played out this season. Strasburg’s SIERA is even better than his FIP, while Roark’s is worse and Fister’s is equal to his FIP. This is some evidence that the difference we saw this year really was due to luck rather than underlying skill, but these aren’t the only tools we have.</p>
+<p>In 2009, Mike Fast wrote for The Hardball Times of his findings on <a href="http://www.hardballtimes.com/confessions-of-a-dips-apostate/">the effect of pulling the ball</a> on batting average on contact, the perfectly named BACON, and BABIP. Using MLB Gameday data from 2007 and 2008 Fast found that fly balls hit to the pull field had a BACON of .452, while those to center and the opposite field were just .217 and .182. A significant difference in success for the batter and again something that flows intuitively from our understanding of baseball.</p>
+<p>Using <a href="http://baseballsavant.com/index.php">Baseball Savant’s</a> PITCHf/x search tool I got the number of opposite field, center field and pull field fly balls allowed by Nats starters. From there I calculated the percentage of pulled fly balls by each pitcher. For context, Fast found that the highest pull pitchers averaged a pull rate of 38.9 percent and the lowest 13.7 percent.</p>
+<div class="w3-responsive"><table class="w3-table-all">
+<tbody>
+<tr>
+<td width="136">Pitcher</td>
+<td width="73">Righty pull</td>
+<td width="105">Righty opposite</td>
+<td width="65">Lefty pull</td>
+<td width="89">Left opposite</td>
+<td width="31">Pull</td>
+<td width="64">Opposite</td>
+<td width="64">Center</td>
+<td width="64">Pull %</td>
+</tr>
+<tr>
+<td>Doug Fister</td>
+<td>12</td>
+<td>18</td>
+<td>20</td>
+<td>20</td>
+<td>32</td>
+<td>38</td>
+<td>41</td>
+<td>28.8%</td>
+</tr>
+<tr>
+<td>Tanner Roark</td>
+<td>13</td>
+<td>16</td>
+<td>24</td>
+<td>37</td>
+<td>37</td>
+<td>53</td>
+<td>46</td>
+<td>27.2%</td>
+</tr>
+<tr>
+<td>Gio Gonzalez</td>
+<td>18</td>
+<td>28</td>
+<td>6</td>
+<td>14</td>
+<td>24</td>
+<td>42</td>
+<td>37</td>
+<td>23.3%</td>
+</tr>
+<tr>
+<td>Jordan Zimmermann</td>
+<td>14</td>
+<td>21</td>
+<td>10</td>
+<td>14</td>
+<td>24</td>
+<td>35</td>
+<td>45</td>
+<td>23.1%</td>
+</tr>
+<tr>
+<td>Stephen Strasburg</td>
+<td>13</td>
+<td>21</td>
+<td>8</td>
+<td>24</td>
+<td>21</td>
+<td>45</td>
+<td>56</td>
+<td>17.2%</td>
+</tr>
+</tbody>
+</div></table>
+<p>Interestingly, Strasburg has the lowest pull percentage of all Nats starters, while Fister and Roark are the highest. Like we saw with SIERA the results are the opposite of what is shown in each pitcher’s BABIP. Meanwhile Zimmermann and Gonzalez stayed roughly close to league average, which their BABIPs were.</p>
+<p>The first thought is that Strasburg had worse than average results on fly balls to the opposite field, however he allowed just six hits to the opposite field. Vice versa Roark or Fister could have had unusually good results on fly balls to the pull field. That seems to be the case at least for Fister who gave up hits on just 28.1 percent of his fly balls allowed to the pull field, much better than average. In any case we would expect that over long periods of time the lower pulled fly ball percentage a pitcher allows the better he will do, which bodes well for Strasburg and not as well for Roark and Fister.</p>
+<p>But we still haven’t exhausted our tool belt yet. In 2008, Carleton looked into <a href="http://statspeakmvn.wordpress.com/2008/01/31/is-brian-bannister-on-to-something/">the effect of count on BABIP</a> and found that a pitcher’s BABIP is much lower when he is ahead in the count. He also found that individual pitchers do have the ability to get into favorable counts more often. Something that is likely already believed by many baseball fans. Again using Baseball Savant’s PITCHf/x tool I found each starter’s percentage of pitches put in play when ahead in the count and when behind in the count.</p>
+<div class="w3-responsive"><table class="w3-table-all">
+<tbody>
+<tr>
+<td width="136">Pitcher</td>
+<td width="73">Ahead</td>
+<td width="105">Behind</td>
+</tr>
+<tr>
+<td>Doug Fister</td>
+<td>190</td>
+<td>108</td>
+</tr>
+<tr>
+<td>Tanner Roark</td>
+<td>181</td>
+<td>142</td>
+</tr>
+<tr>
+<td>Gio Gonzalez</td>
+<td>123</td>
+<td>107</td>
+</tr>
+<tr>
+<td>Jordan Zimmermann</td>
+<td>204</td>
+<td>98</td>
+</tr>
+<tr>
+<td>Stephen Strasburg</td>
+<td>167</td>
+<td>131</td>
+</tr>
+</tbody>
+</div></table>
+<p>Unsurprisingly Zimmermann was almost absurdly good at getting batters to put the ball in play when he was ahead in the count, while Gonzalez was nearly even between being ahead and behind. But focusing on our three standout cases we can see that Fister was only a step behind Zimmermann in getting batters to put the ball in play in advantageous counts, which likely helped him keep his BABIP down. Roark had a smaller gap but still had a good percentage of his balls in play come in a pitcher’s count while Strasburg was another step behind him. In this case we see a clear advantage for Fister and Roark over Strasburg.</p>
+<p>There’s one final set of stats we can look at. In 2013, Dan Rosenheck gave a presentation at the MIT Sloan Analytics Conference on the <a href="http://www.fangraphs.com/blogs/hitting-em-where-they-are/">effects of infield fly rate and in-zone contact rate</a>. Rosenheck determined that infield fly rate and in-zone contact rate together can account for about 15 percent of the variance in year-to-year BABIP. He also found that his model predicted BABIP outliers well, or pitchers who had a BABIP well below the average of their teammates. Below is the infield fly rate and in-zone contact rate of our three mystery men as found on FanGraphs.</p>
+<div class="w3-responsive"><table class="w3-table-all">
+<tbody>
+<tr>
+<td width="136">Pitcher</td>
+<td width="73">IFFB%</td>
+<td width="105">Z-Contact%</td>
+</tr>
+<tr>
+<td>Stephen Strasburg</td>
+<td>6.8%</td>
+<td>88.5%</td>
+</tr>
+<tr>
+<td>Tanner Roark</td>
+<td>11.8%</td>
+<td>88.4%</td>
+</tr>
+<tr>
+<td>Doug Fister</td>
+<td>7.3%</td>
+<td>91.8%</td>
+</tr>
+</tbody>
+</div></table>
+<p>Strasburg’s low popup rate could suggest that despite his great pull rate that he was giving up hard hit contact when hitters were able to put the ball in play. While Roark’s high mark suggests he was able to deceive batters into weak contact. All three did average or worse when it came to getting swings and misses on pitches inside the strike zone, with Fister checking in well below average.</p>
+<p>So all three pitchers put up numbers that backed up their performance this year and all three also put up numbers that contradicted it. For Strasburg the numbers suggest that while a small part of his BABIP troubles could be his own fault, most of it seems attributable to bad luck. Fister has some troubling numbers though, with a number of his peripheral stats more closely matching his OK 2010 rather than his great 2011-2013 seasons. The wide gap in getting hitters to put the ball in play when he’s ahead in the count is a positive sign though. For Roark it’s more of a mixed bag, his infield fly rate signals that he does have a good amount of influence over the contact opposing batters make and that’s good considering his high fly ball rate. While Roark’s BABIP was still likely a bit depressed in 2014, the other shoe doesn’t look like it will drop as hard for him as it seems set to do for Fister.</p>
+<p>In the end it’s up to the individual to determine how much control they think a pitcher has when the ball is put in play and which stats they think are best for showing that skill. This is a topic filled with unsure research and there are still a number of questions left to explore when it comes to what makes a given pitcher effective. But hopefully today we’ve gotten a bit closer to guessing the correct number of jelly beans so we can win that sweet door prize.</p>
+ </div>
+<b>Follow me on <a href="https://bsky.app/profile/nextyeardc.bsky.social">BlueSky</a>.</b></div>
+</body>
+</html>

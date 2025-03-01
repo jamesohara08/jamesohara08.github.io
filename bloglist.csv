@@ -1,102 +1,172 @@
-html_name,print_time
-WhyAretheNatsWatchable.html,May 05, 2023
-DaveyMartinezisstillstruggling.html,April 10, 2019
-NationalsWorldCupofBaseball.html,September 03, 2019
-KevinLong.html,March 09, 2018
-CatcherTrade.html,August 17, 2017
-BullpenPost3.html,July 11, 2017
-BullpenPost2.html,May 08, 2017
-Papelbon.html,February 01, 2016
-NatsOffseason.html,January 27, 2016
-Bullpen.html,January 05, 2016
-NationalsOralHistory.html,October 07, 2015
-TreaTurner.html,August 25, 2015
-TheWilliamsTreastie.html,August 04, 2015
-PapelbonExplainer.html,July 28, 2015
-NatsBullpen2.html,July 01, 2015
-FormidableOpponent.html,June 26, 2015
-Nats10YearsOutoftheParkLeague.html,May 15, 2015
-HotTakes.html,April 08, 2015
-TannerRoark.html,March 31, 2015
-Tweetbag.html,March 25, 2015
-EveryNatsGameAStory.html,March 17, 2015
-GoodMorningNatstown.html,March 10, 2015
-TannerRoarkPost.html,February 09, 2015
-MaxScherzer.html,January 31, 2015
-BlakeTreinen.html,January 31, 2015
-YunelEscobar.html,January 31, 2015
-NatsScherzer.html,January 19, 2015
-NatsBullpen.html,September 04, 2014
-NeverStrikesOutorWalks.html,June 11, 2014
-HeSaidSheSaidGoodbye.html,May 01, 2014
-CTRunningBacksSpring.html,April 24, 2014
-CTBuzzWilliams.html,March 25, 2014
-HeSaidSheSaidValentine'sDay.html,February 13, 2014
-HeSaidSheSaidOlympics.html,February 06, 2014
-CTVTOffensiveLine.html,February 05, 2014
-HeSaidSheSaidSuperBowl.html,January 30, 2014
-HeSaidSheSaidSpringStart.html,January 23, 2014
-ACCRoundup14.html,January 13, 2014
-ACCRoundup13.html,December 04, 2013
-ACCRoundup12.html,November 20, 2013
-ACCRoundup11.html,November 13, 2013
-ACCRoundup10.html,November 06, 2013
-ACCRoundup9.html,October 30, 2013
-CTJackTyler.html,October 26, 2013
-ACCRoundup8.html,October 25, 2013
-HeSaidSheSaidFallBreak.html,October 16, 2013
-ACCRoundup7.html,October 16, 2013
-ACCRoundup6.html,October 09, 2013
-CTUNCDefense.html,October 03, 2013
-ACCRoundup5.html,October 02, 2013
-ACCRoundup4.html,September 25, 2013
-CTTripleOption.html,September 25, 2013
-CTRecievers.html,September 19, 2013
-ACCRoundup1.html,September 17, 2013
-CTDefensiveLine.html,September 11, 2013
-CTFansSuck.html,September 04, 2013
-CTRunningBacks.html,August 29, 2013
-AdvancedStats.html,August 29, 2013
-CTBaseball.html,August 27, 2013
-CTHokiesInjuries.html,August 25, 2013
-CTInjuryReport.html,August 16, 2013
-RegressionCandidates.html,July 04, 2013
-PitchesPerPlateAppearance.html,May 01, 2013
-CTGolf.html,May 01, 2013
-CTOffensiveLine.html,April 18, 2013
-CTCaps.html,April 16, 2013
-CTNCAA.html,April 09, 2013
-CTNCAAChamp.html,April 03, 2013
-CTALPreview.html,March 26, 2013
-CTWestUpsetDarkhorse.html,March 21, 2013
-CTWestRegion.html,March 20, 2013
-PlayersToWatch.html,March 20, 2013
-CTSouthRegion.html,March 19, 2013
-DannyEspinosa20-20.html,March 12, 2013
-CTDukePreview.html,March 04, 2013
-CTReplayMLB.html,February 19, 2013
-JordanZimmermann.html,February 17, 2013
-CTSpringTraining.html,February 11, 2013
-CTRecruit.html,February 05, 2013
-CTSuperBowl.html,February 04, 2013
-BetterWins.html,January 23, 2013
-CTVT-UVaPreview.html,January 23, 2013
-BattingOrder.html,January 10, 2013
-CTWinterMeetings.html,December 04, 2012
-CTCFBDisappointing.html,November 27, 2012
-CTJarellEddie.html,November 06, 2012
-CTGoldGlove.html,October 31, 2012
-CTMLBPredictions.html,October 30, 2012
-CTUndefeatedCFB.html,October 10, 2012
-CTNLPreview.html,October 03, 2012
-CTNatsClinch.html,September 26, 2012
-CTReplacementRefs.html,September 19, 2012
-CTStrasburgShutdownFor.html,August 28, 2012
-WashingtonCapitalsSeasonPreview.html,May 23, 2012
-Healthyv.Injured.html,May 14, 2012
-3BiggestSurprisesSoFarForNationals.html,May 06, 2012
-VirginiaTech.html,September 02, 2011
-SportsRoundup.html,July 04, 2011
-Capitals.html,July 03, 2011
-SportsRoundupJune30.html,June 30, 2011
-DannyEspinosa.html,June 29, 2011
+html_name,print_time,
+WhyAretheNatsWatchable.html,5-May,2023
+NationalsWorldCupofBaseball.html,3-Sep,2019
+DaveyMartinezisstillstruggling.html,10-Apr,2019
+KevinLong.html,9-Mar,2018
+CatcherTrade.html,17-Aug,2017
+BullpenPost3.html,11-Jul,2017
+BullpenPost2.html,8-May,2017
+Papelbon.html,1-Feb,2016
+NatsOffseason.html,27-Jan,2016
+Bullpen.html,5-Jan,2016
+NationalsOralHistory.html,7-Oct,2015
+TreaTurner.html,25-Aug,2015
+TheWilliamsTreastie.html,4-Aug,2015
+PapelbonExplainer.html,28-Jul,2015
+NatsBullpen2.html,1-Jul,2015
+FormidableOpponent.html,26-Jun,2015
+Nats10YearsOutoftheParkLeague.html,15-May,2015
+HotTakes.html,8-Apr,2015
+TannerRoark.html,31-Mar,2015
+Tweetbag.html,25-Mar,2015
+EveryNatsGameAStory.html,17-Mar,2015
+GoodMorningNatstown.html,10-Mar,2015
+TannerRoarkPost.html,9-Feb,2015
+MaxScherzer.html,31-Jan,2015
+BlakeTreinen.html,31-Jan,2015
+YunelEscobar.html,31-Jan,2015
+NatsScherzer.html,19-Jan,2015
+stockholm-syndrome-and-danny-espinosa.html,12-Jan,2015
+50-possible-nats-second-baseman-solutions.html,10-Dec,2014
+ian-desmonds-power-the-past-and-the-future.html,26-Nov,2014
+nats-starting-pitchers-and-babip.html,21-Nov,2014
+the-nats-are-broken-lets-fix-them-part-ii.html,14-Nov,2014
+denard-spans-defense.html,31-Oct,2014
+the-playoffs-stink.html,10-Oct,2014
+the-expected-unexpected-the-nationals-clinch.html,17-Sep,2014
+NatsBullpen.html,4-Sep,2014
+fancy-stats-and-the-problems-with-misleading-statistics.html,29-Aug,2014
+the-nats-offense-is-better-than-you-think.html,27-Aug,2014
+interactive-nats-bullpen-decision-chart.html,21-Aug,2014
+revisiting-span.html,13-Aug,2014
+unsolved-mysteries-stephen-strasburg.html,8-Aug,2014
+denard-span-and-cherry-picking.html,8-Jul,2014
+NeverStrikesOutorWalks.html,11-Jun,2014
+whats-up-with-ian-desmond.html,6-Jun,2014
+jordan-zimmermann-and-the-luck-dragon.html,3-Jun,2014
+plate-discipline-and-strikeout-and-walk-rate.html,28-May,2014
+HeSaidSheSaidGoodbye.html,1-May,2014
+CTRunningBacksSpring.html,24-Apr,2014
+tyler-clippard-is-dead-long-live-tyler-clippard.html,22-Apr,2014
+playoff-teams-and-records.html,12-Apr,2014
+average-fastball-velocity-and-pitcher-performance.html,8-Apr,2014
+CTBuzzWilliams.html,25-Mar,2014
+on-bunting.html,14-Mar,2014
+spring-training-story-creator.html,23-Feb,2014
+HeSaidSheSaidValentine'sDay.html,13-Feb,2014
+HeSaidSheSaidOlympics.html,6-Feb,2014
+CTVTOffensiveLine.html,5-Feb,2014
+HeSaidSheSaidSuperBowl.html,30-Jan,2014
+HeSaidSheSaidSpringStart.html,23-Jan,2014
+ACCRoundup14.html,13-Jan,2014
+2014110danny-espinosa-a-man-misunderstood.html,10-Jan,2014
+2013125why-did-fans-like-steve-lombardozzi-so-much.html,5-Dec,2013
+ACCRoundup13.html,4-Dec,2013
+ACCRoundup12.html,20-Nov,2013
+20131118the-nats-are-broken-lets-fix-them.html,18-Nov,2013
+20131114the-bullpen-and-loogys.html,14-Nov,2013
+ACCRoundup11.html,13-Nov,2013
+ACCRoundup10.html,6-Nov,2013
+ACCRoundup9.html,30-Oct,2013
+CTJackTyler.html,26-Oct,2013
+ACCRoundup8.html,25-Oct,2013
+HeSaidSheSaidFallBreak.html,16-Oct,2013
+ACCRoundup7.html,16-Oct,2013
+ACCRoundup6.html,9-Oct,2013
+CTUNCDefense.html,3-Oct,2013
+ACCRoundup5.html,2-Oct,2013
+ACCRoundup4.html,25-Sep,2013
+CTTripleOption.html,25-Sep,2013
+2013924trying-to-make-up-for-lost-time.html,24-Sep,2013
+CTRecievers.html,19-Sep,2013
+ACCRoundup1.html,17-Sep,2013
+CTDefensiveLine.html,11-Sep,2013
+CTFansSuck.html,4-Sep,2013
+CTRunningBacks.html,29-Aug,2013
+AdvancedStats.html,29-Aug,2013
+2013829a-guide-to-advanced-statistics.html,29-Aug,2013
+CTBaseball.html,27-Aug,2013
+CTHokiesInjuries.html,25-Aug,2013
+CTInjuryReport.html,16-Aug,2013
+2013812stephen-strasburg-and-madduxing.html,12-Aug,2013
+2013722holy-crap-the-bench-is-bad-and-somebody-should-do-something.html,23-Jul,2013
+2013712game-93-recap-nats-lose-to-marlins.html,13-Jul,2013
+2013711deleting-the-adjectives-notebook.html,11-Jul,2013
+201378the-real-ian-desmond-has-stood-up.html,8-Jul,2013
+201375game-86-recap-theres-something-about-8-5.html,6-Jul,2013
+RegressionCandidates.html,4-Jul,2013
+2013621series-26-preview-nats-vs-rockies.html,21-Jun,2013
+2013620nats-rockies-game-one-preview.html,20-Jun,2013
+2013619deleting-the-adjectives-strikeouts.html,20-Jun,2013
+2013616the-harper-and-zimmerman-effect.html,17-Jun,2013
+2013614game-66-recap-indians-walk-off-nats.html,15-Jun,2013
+2013613deleting-the-adjectives-the-drew-storen-enigma.html,13-Jun,2013
+201366deleting-the-adjectives-adam-laroche-and-the-three-true-outcomes.html,6-Jun,2013
+2013530deleting-the-adjectives-tyler-moore.html,30-May,2013
+2013524game-48-nats-bats-wake-up.html,25-May,2013
+2013523deleting-the-adjectives-the-bench.html,23-May,2013
+2013522game-46-recap-nats-lose-in-extras.html,22-May,2013
+2013521game-45-recap-a-forgettable-evening.html,21-May,2013
+2013518game-42-recap-nats-win-in-extras.html,18-May,2013
+2013517game-41-recap-a-complete-win.html,17-May,2013
+2013516deleting-the-adjectives-explaining-zimmermann.html,16-May,2013
+2013516game-40-recap-nats-fall-short.html,16-May,2013
+2013515game-39-recap-clayton-kershaws-pretty-good.html,15-May,2013
+2013514game-38-recap-harper-hurt.html,14-May,2013
+2013511game-36-recap-nats-stopped-cold.html,11-May,2013
+2013510game-35-recap-nats-extn.html,11-May,2013
+201359game.html,9-May,2013
+201352fbt3fg1f5cbabmmq3q79oeg2ubkad5.html,3-May,2013
+201351deleting-the-adjectives-pitches-per-plate-appearance.html,2-May,2013
+PitchesPerPlateAppearance.html,1-May,2013
+CTGolf.html,1-May,2013
+2013429game-26-recap-nationals-miss-opportunity.html,30-Apr,2013
+20134253xdfdrxzdl6ngzbwsldok3e0bgq3t4.html,26-Apr,2013
+2013424deleting-the-adjectives-stephen-strasburg-and-strikeout-rate.html,25-Apr,2013
+2013421game-18-recap.html,21-Apr,2013
+CTOffensiveLine.html,18-Apr,2013
+20134166ndsu82gibb6bagfmflvg75yfm4erb.html,17-Apr,2013
+CTCaps.html,16-Apr,2013
+2013412o1z16cl96dnkp284xd9a4i7aicpwoj.html,13-Apr,2013
+CTNCAA.html,9-Apr,2013
+201347game.html,7-Apr,2013
+201345mmghh6ecy5gu5scbfd0ge904p0idha.html,6-Apr,2013
+CTNCAAChamp.html,3-Apr,2013
+CTALPreview.html,26-Mar,2013
+CTWestUpsetDarkhorse.html,21-Mar,2013
+20133210iu6v1365ot52o58myqv0xjiajtbi6.html,21-Mar,2013
+CTWestRegion.html,20-Mar,2013
+PlayersToWatch.html,20-Mar,2013
+CTSouthRegion.html,19-Mar,2013
+201331879miaywh6ihodlxpjohumxnf6i4jjn.html,19-Mar,2013
+DannyEspinosa20-20.html,12-Mar,2013
+CTDukePreview.html,4-Mar,2013
+CTReplayMLB.html,19-Feb,2013
+JordanZimmermann.html,17-Feb,2013
+CTSpringTraining.html,11-Feb,2013
+CTRecruit.html,5-Feb,2013
+CTSuperBowl.html,4-Feb,2013
+2013126fwgirbmnvsgv77u0nye2g48svfs06t.html,26-Jan,2013
+BetterWins.html,23-Jan,2013
+CTVT-UVaPreview.html,23-Jan,2013
+2013110optimizing-the-nats-batting-order.html,11-Jan,2013
+BattingOrder.html,10-Jan,2013
+20121229why-the-nats-dont-need-a-loogy.html,30-Dec,2012
+CTWinterMeetings.html,4-Dec,2012
+CTCFBDisappointing.html,27-Nov,2012
+CTJarellEddie.html,6-Nov,2012
+CTGoldGlove.html,31-Oct,2012
+CTMLBPredictions.html,30-Oct,2012
+CTUndefeatedCFB.html,10-Oct,2012
+CTNLPreview.html,3-Oct,2012
+CTNatsClinch.html,26-Sep,2012
+CTReplacementRefs.html,19-Sep,2012
+CTStrasburgShutdownFor.html,28-Aug,2012
+WashingtonCapitalsSeasonPreview.html,23-May,2012
+Healthyv.Injured.html,14-May,2012
+3BiggestSurprisesSoFarForNationals.html,6-May,2012
+VirginiaTech.html,2-Sep,2011
+SportsRoundup.html,4-Jul,2011
+Capitals.html,3-Jul,2011
+SportsRoundupJune30.html,30-Jun,2011
+DannyEspinosa.html,29-Jun,2011

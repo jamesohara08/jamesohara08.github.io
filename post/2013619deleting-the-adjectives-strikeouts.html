@@ -1,0 +1,43 @@
+<!doctype html> 
+             <html lang="en-US"> 
+              <head>
+                <meta charset="UTF-8" />
+                <title>Deleting the Adjectives: Strikeouts</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+              </head>
+<body><div class="w3-row">                    <img src="next_year_dc_banner_new.jpg" class="w3-image" style="width:100%"/>                     <div class="w3-bar w3-border w3-light-grey">                        <a href="/home" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Home</a>                         <a href="/home/about" class="w3-bar-item w3-mobile w3-button w3-hover-blue">About</a>                         <a href="/NatsGMProject" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Be Your Own Nats GM</a>                        <a href="/SpringTrainingStoryCreator" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Spring Training Story Creator</a>                        <a href="/GarbageKyles" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Garbage Kyles Quiz</a>                    </div>                </div>
+<div class="w3-content w3-container" id="post">
+<h1>Deleting the Adjectives: Strikeouts</h1><b>June 20, 2013</b><div class="entry-content">
+<p><!--[if gte mso 9]&gt;--></p>
+<blockquote><p>“There’s nothing worse than a strikeout.”</p></blockquote>
+<blockquote><p>“Strikeouts kill rallies and are the<br/>
+antithesis of scoring.”</p></blockquote>
+<blockquote><p>“Teams that strike out more, lose more.”</p></blockquote>
+<blockquote><p>“Players who strike out a lot are worthless and should be gotten rid of immediately.”</p></blockquote>
+<p>These are all opinions some voices in baseball would want you to believe are true, but are they?</p>
+<p>To find out I used the five-year team data from my pitches per plate appearance post and added in strikeout rate and<br/>
+raw strikeout numbers. This should give us a large sample, spread over two different statistics measuring strikeouts, which can give us a good way to test the effect of strikeouts.</p>
+<p>Like with the pitches per plate appearance column I again used linear regression to measure the correlation<br/>
+between the two strikeout statistics and the associated stat.  As we were before, we are looking for that big R-squared value that indicates a greater correlation for the data. The only difference is that this time we are looking for a negative correlation, since our hypothesis is that a higher strikeout rate negatively affects production.</p>
+<p>Let’s start with the big picture, how much do strikeouts effect win totals? The first graph will be the correlation, or lack thereof, between strikeout rate, K%, and wins, while the second graph is the same for raw strikeouts.</p>
+<p><!--[if gte mso 9]&gt;--></p>
+<p><img alt="" src="https://i0.wp.com/static.squarespace.com/static/5005c1c3e4b0a6953321d76e/50d5f053e4b049843bd9360d/51c263a8e4b01e46e93bad09/1371694018416/kwins.png"/><img alt="" src="https://i0.wp.com/static.squarespace.com/static/5005c1c3e4b0a6953321d76e/50d5f053e4b049843bd9360d/51c263eee4b02a2056425f04/1371694083220/swins.png"/><!--[if gte mso 9]&gt;--></p>
+<p>Both of these graphs have a trait that you do not want to see if you’re expecting a correlation, they are squares. Heavy correlation would lead to the data points forming a nice orderly diagonal line up or down, a square means there is a complete lack of correlation.</p>
+<p>The R-squared values agree at .02 and .008 respectively, or a 2% and .8% correlation, which is little more than random noise. From this we can definitely conclude that strikeouts have zero effect on winning. Take special notice of the difference between the K% R-squared value and the strikeout R-squared value, we will look at that more<br/>
+later.</p>
+<p>So striking out has nothing to do with winning, so let’s take a step down the ladder and look at its effect on runs scored. There are many people who would argue passionately that more strikeouts lead to less runs. Luckily we have the statistics to see if they’re right.</p>
+<p><!--[if gte mso 9]&gt;--></p>
+<img alt="" src="https://i0.wp.com/static.squarespace.com/static/5005c1c3e4b0a6953321d76e/50d5f053e4b049843bd9360d/51c264c6e4b0125dd2e12887/1371694297106/Kruns.png"/><img alt="" src="https://i0.wp.com/static.squarespace.com/static/5005c1c3e4b0a6953321d76e/50d5f053e4b049843bd9360d/51c264f3e4b094d93e428e83/1371694342000/sruns.png"/>
+<p>Well there’s a little more of a trend in those graphs than there was with wins, but no strikeouts do not have much of a correlation with runs either. The R-squared values of .0969 and .03 are too low to say that strikeouts alone have any effect on runs scored. So while strikeouts aren’t the best, blaming them on a lack of offense would be an overly simplistic and incorrect argument. Finally, again notice the difference between the two R-squared values.</p>
+<p>Baseball is a complex game and we shouldn’t expect something as small as strikeouts to affect these big picture stats much, despite the emphasis some would place on them. So let’s take one last step down and look at on-base percentage.</p>
+<img alt="" src="https://i0.wp.com/static.squarespace.com/static/5005c1c3e4b0a6953321d76e/50d5f053e4b049843bd9360d/51c2656ce4b0fd9e08f84e46/1371694544610/kobp.png"/><img alt="" src="https://i0.wp.com/static.squarespace.com/static/5005c1c3e4b0a6953321d76e/50d5f053e4b049843bd9360d/51c265f4e4b01e46e93bb45b/1371694600233/sobp.png"/>
+<p>Here we finally see something related to a correlation between strikeout rate and on-base percentage. While an R-squared value of .219 isn’t high enough to make a definitive judgment, it is high enough to make it worth observing. At this rate we cannot reject the notion that strikeout rate effects on-base percentage, but it is by no means confirmed.</p>
+<p>And again we see that the R-squared value for raw strikeouts, at .121, is much lower than the strikeout rate value.<br/>
+This gives us a pretty good idea that when judging a hitter or a team, looking at their strikeout rate would be more valuable than their raw strikeout total.  While it isn’t the conclusion we set out to find, it is an interesting conclusion nonetheless.</p>
+<p>So now we go forth, comfortable in the knowledge that while strikeouts are no fun, they are certainly not the end of the world.</p>
+<p><!--[if gte mso 9]&gt;--></p>
+ </div>
+<b>Follow me on <a href="https://bsky.app/profile/nextyeardc.bsky.social">BlueSky</a>.</b></div>
+</body>
+</html>
