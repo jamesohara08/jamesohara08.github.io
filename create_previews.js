@@ -38,7 +38,6 @@ async function buildHomepage(){
 	for(const line of lines){
 		const filename = line.split(',')[0];
 		if(filename != 'html_name'){
-			console.log(filename);
 			const url = "https://nextyeardc.com/post/" + filename;
 			posts.push(url);
 		}
