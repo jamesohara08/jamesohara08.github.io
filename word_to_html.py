@@ -17,12 +17,6 @@ if '.docx' in filename:
     file_path = filename
     article_name = file_path.replace('.docx','')
     created_date = datetime.datetime.strftime(get_created_date(file_path), "%B %d, %Y")
-    if 'HSSS_' in article_name:
-        article_name = article_name.replace('HSSS_','He Said She Said ')
-        created_date += " Originally published in Collegiate Times with companion She Said"
-    elif 'CT_' in article_name:
-        article_name = article_name.replace('CT_','CT ')
-        created_date += " Originally published in Collegiate Times"
 else:
     raise TypeError("File type must be .docx")
 
