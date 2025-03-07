@@ -2,6 +2,7 @@ import mammoth
 import datetime
 import docx
 import os
+import argparse
 
 def get_created_date(docx_file):
     doc = docx.Document(docx_file)
@@ -35,10 +36,11 @@ head = '<!doctype html> \n \
   <head>\n\
     <meta charset="UTF-8" />\n\
     <title>{0}</title>\n\
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">\n\
     <meta name="viewport" content="width=device-width, initial-scale=1">\n\
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">\n\
   </head>\n<body><div class="w3-row">\
-        <img src="next_year_dc_banner_new.jpg" class="w3-image" style="width:100%"/>\
+        <img src="/images/next_year_dc_banner_new.jpg" class="w3-image" style="width:100%"/>\
          <div class="w3-bar w3-border w3-light-grey">\
             <a href="/home" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Home</a> \
             <a href="/home/about" class="w3-bar-item w3-mobile w3-button w3-hover-blue">About</a> \
@@ -51,7 +53,7 @@ end = '\n<b>Follow me on <a href="https://bsky.app/profile/nextyeardc.bsky.socia
 
 html = html.replace('<table>', '<div class="w3-responsive"><table class="w3-table-all">')
 html = html.replace('</table>','</table></div>')
-with open("{}.html".format(article_name.replace(' ','')),'w',encoding='utf-8') as out_f:
+with open("post/{}.html".format(article_name.replace(' ','')),'w',encoding='utf-8') as out_f:
     out_f.write(head)
     out_f.write(html)
     out_f.write(end)
