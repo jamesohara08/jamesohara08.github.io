@@ -36,8 +36,8 @@ head = '<!doctype html> \n \
   </head>\n<body><div class="w3-row">\
         <img src="../next_year_dc_banner_new.jpg" class="w3-image" style="width:100%"/>\
          <div class="w3-bar w3-border w3-light-grey">\
-            <a href="/home" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Home</a> \
-            <a href="/home/about" class="w3-bar-item w3-mobile w3-button w3-hover-blue">About</a> \
+            <a href="/" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Home</a> \
+            <a href="/about" class="w3-bar-item w3-mobile w3-button w3-hover-blue">About</a> \
             <a href="/NatsGMProject" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Be Your Own Nats GM</a>\
             <a href="/SpringTrainingStoryCreator" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Spring Training Story Creator</a>\
             <a href="/GarbageKyles" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Garbage Kyles Quiz</a>\
