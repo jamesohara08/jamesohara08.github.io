@@ -43,7 +43,7 @@ head = '<!doctype html> \n \
             <a href="/GarbageKyles" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Garbage Kyles Quiz</a>\
         </div>\
     </div>\n<div class="w3-content w3-container" id="post">\n<h1>{0}</h1><b>{1}</b>'.format(article_name, created_date)
-end = '\n<b>Follow me on <a href="https://bsky.app/profile/nextyeardc.bsky.social">BlueSky</a>.</b></div>\n</body>\n</html>'
+end = '\n<b>Follow me on <a href="https://bsky.app/profile/nextyeardc.com">BlueSky</a>.</b></div>\n</body>\n</html>'
 
 html = html.replace('<table>', '<div class="w3-responsive"><table class="w3-table-all">')
 html = html.replace('</table>','</table></div>')
