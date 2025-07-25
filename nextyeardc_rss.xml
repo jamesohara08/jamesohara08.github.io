@@ -1,11 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
 
 <channel>
   <title>James O'Hara's Next Year, D.C.</title>
   <link>https://nextyeardc.com</link>
-  <atom:link href="https://nextyeardc.com/nextyeardc_rss.xml" rel="self" type="application/rss+xml" />
+  <ns0:link href="https://nextyeardc.com/nextyeardc_rss.xml" rel="self" type="application/rss+xml" />
   <description>A DC sports blog</description>
+  <item>
+    <title>Expectations for the Mystics Second Half</title>
+    <link>https://nextyeardc.com/post/ExpectationsfortheMysticsSecondHalf.html</link>
+    <description>The Washington Mystics, in a season that looked destined to be historically terrible, are holding onto the final playoff spot at 11-12, with just 2.5 games separating them from 4th place. As we enter the second half of the season how much should we be adjusting our expectations?</description>
+    <pubDate>Fri, 25 Jul 2025 12:00:00 EDT</pubDate>
+  </item>
   <item>
     <title>Checking In on the 2026 Nats Pitchers</title>
     <link>https://nextyeardc.com/post/Checkinginonthe2026NatsPitchers.html</link>
@@ -86,4 +92,4 @@
   </item>
 </channel>
 
-</rss> 
+</rss>

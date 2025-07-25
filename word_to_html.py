@@ -3,6 +3,7 @@ import datetime
 import docx
 import os
 import argparse
+import xml.etree.ElementTree as ET
 
 def get_created_date(docx_file):
     doc = docx.Document(docx_file)
@@ -51,3 +52,15 @@ with open("post/{}.html".format(article_name.replace(' ','')),'w',encoding='utf-
     out_f.write(head)
     out_f.write(html)
     out_f.write(end)
+
+tree = ET.parse('nextyeardc_rss.xml')
+root = tree.getroot()
+channel = root.find("channel")
+
+new_post = ET.Element('item')
+title = ET.SubElement(new_post,'title').text = article_name
+link = ET.SubElement(new_post,'link').text = "https://nextyeardc.com/post/{}.html".format(article_name.replace(' ',''))
+description = ET.SubElement(new_post,'description').text = ""
+pubDate = ET.SubElement(new_post,'pubDate').text = datetime.datetime.strftime(datetime.datetime.now(),'%a, %d %b %Y %I:%M:%S EDT')
+
+tree.write('nextyeardc_rss.xml', encoding="utf-8", xml_declaration=True)
