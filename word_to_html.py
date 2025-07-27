@@ -58,9 +58,19 @@ root = tree.getroot()
 channel = root.find("channel")
 
 new_post = ET.Element('item')
-title = ET.SubElement(new_post,'title').text = article_name
-link = ET.SubElement(new_post,'link').text = "https://nextyeardc.com/post/{}.html".format(article_name.replace(' ',''))
-description = ET.SubElement(new_post,'description').text = ""
-pubDate = ET.SubElement(new_post,'pubDate').text = datetime.datetime.strftime(datetime.datetime.now(),'%a, %d %b %Y %I:%M:%S EDT')
+ET.SubElement(new_post,'title').text = article_name
+ET.SubElement(new_post,'link').text = "https://nextyeardc.com/post/{}.html".format(article_name.replace(' ',''))
+ET.SubElement(new_post,'description').text = ""
+ET.SubElement(new_post,'pubDate').text = datetime.datetime.strftime(datetime.datetime.now(),'%a, %d %b %Y %I:%M:%S EDT')
 
+channel.insert(4, new_post)
 tree.write('nextyeardc_rss.xml', encoding="utf-8", xml_declaration=True)
+
+with open('bloglist.csv') as in_f:
+    output = in_f.readline()
+    output += "{}.html,{}\n".format(article_name.replace(' ',''), created_date)
+    for line in in_f:
+        output += line
+
+with open('bloglist.csv', 'w') as out_f:
+    out_f.write(output)
