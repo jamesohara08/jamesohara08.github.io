@@ -42,6 +42,7 @@ head = '<!doctype html> \n \
             <a href="/NatsGMProject" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Be Your Own Nats GM</a>\
             <a href="/SpringTrainingStoryCreator" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Spring Training Story Creator</a>\
             <a href="/GarbageKyles" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Garbage Kyles Quiz</a>\
+            <a href="/NatsManager" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Nats Manager Quiz</a>\
             <a href="/nextyeardc_rss.xml" class="w3-bar-item w3-mobile w3-button w3-hover-blue">RSS</a>\
         </div>\
     </div>\n<div class="w3-content w3-container" id="post">\n<h1>{0}</h1><b>{1}</b>'.format(article_name, created_date)
