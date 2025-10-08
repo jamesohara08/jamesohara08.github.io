@@ -30,6 +30,17 @@ head = '<!doctype html> \n \
 <html lang="en-US"> \n\
   <head>\n\
     <meta charset="UTF-8" />\n\
+    <meta property="og:site_name" content="Next Year, D.C." />\n\
+    <meta property="og:type" content="website" />\n\
+    <meta property="og:title" content="Next Year, D.C. | {0}" />\n\
+    <meta property="og:description" content="{2}" />\n\
+    <meta property="og:url" content="https://nextyeardc.com/post/{3}.html" />\n\
+    <meta property="og:image" content="https://nextyeardc.com/next_year_dc_banner_new.jpg" />\n\
+    <meta name="twitter:card" content="summary_large_image" />\n\
+    <meta name="twitter:title" content="Next Year, D.C. | {0}" />\n\
+    <meta name="twitter:description" content="{2}" />\n\
+    <meta name="twitter:url" content="https://nextyeardc.com/post/{3}.html" />\n\
+    <meta name="twitter:image" content="https://nextyeardc.com/next_year_dc_banner_new.jpg" />\n\
     <title>{0}</title>\n\
     <link rel="icon" type="image/x-icon" href="../favicon.jpg">\n\
     <meta name="viewport" content="width=device-width, initial-scale=1">\n\
@@ -45,7 +56,7 @@ head = '<!doctype html> \n \
             <a href="/NatsManager" class="w3-bar-item w3-mobile w3-button w3-hover-blue">Nats Manager Quiz</a>\
             <a href="/nextyeardc_rss.xml" class="w3-bar-item w3-mobile w3-button w3-hover-blue">RSS</a>\
         </div>\
-    </div>\n<div class="w3-content w3-container" id="post">\n<h1>{0}</h1><b>{1}</b>'.format(article_name, created_date)
+    </div>\n<div class="w3-content w3-container" id="post">\n<h1>{0}</h1><b>{1}</b>'.format(article_name, created_date,"Views from the least powerful city in sports.",article_name.replace(' ',''))
 end = '\n<b>Follow me on <a href="https://bsky.app/profile/nextyeardc.com">BlueSky</a>.</b></div>\n</body>\n</html>'
 
 html = html.replace('<table>', '<div class="w3-responsive"><table class="w3-table-all">')
